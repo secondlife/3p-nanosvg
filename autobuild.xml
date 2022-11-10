@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<llsd>
+<map>
+    <key>package_description</key>
+    <map>
+      <key>canonical_repo</key>
+      <string>https://bitbucket.org/lindenlab/3p-nanosvg</string>
+      <key>copyright</key>
+      <string>Copyright (c) 2013-14 Mikko Mononen</string>
+      <key>description</key>
+      <string>NanoSVG is a simple single-header-file SVG parser and rasterizer</string>
+      <key>license</key>
+      <string>Zlib</string>
+      <key>license_file</key>
+      <string>LICENSES/LICENSE.txt</string>
+      <key>name</key>
+      <string>nanosvg</string>
+      <key>platforms</key>
+      <map>
+        <key>common</key>
+        <map>
+          <key>build_directory</key>
+          <string>stage</string>
+          <key>configurations</key>
+          <map>
+            <key>default</key>
+            <map>
+              <key>build</key>
+              <map>
+                <key>command</key>
+                <string>bash</string>
+                <key>options</key>
+                <array>
+                  <string>-c</string>
+                  <string>../build-cmd.sh</string>
+                </array>
+              </map>
+              <key>default</key>
+              <string>true</string>
+              <key>name</key>
+              <string>default</string>
+            </map>
+          </map>
+          <key>manifest</key>
+          <array>
+            <string>LICENSES/LICENSE.txt</string>
+            <string>include/*.h</string>
+          </array>
+          <key>name</key>
+          <string>common</string>
+        </map>
+      </map>
+      <key>version_file</key>
+      <string>../VERSION.txt</string>
+    </map>
+    <key>type</key>
+    <string>autobuild</string>
+    <key>version</key>
+    <string>1.3</string>
+  </map>
+</llsd>
