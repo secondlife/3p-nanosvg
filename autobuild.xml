@@ -12,7 +12,7 @@
       <key>license</key>
       <string>Zlib</string>
       <key>license_file</key>
-      <string>LICENSES/LICENSE.txt</string>
+      <string>LICENSES/nanosvg.txt</string>
       <key>name</key>
       <string>nanosvg</string>
       <key>platforms</key>
@@ -43,8 +43,8 @@
           </map>
           <key>manifest</key>
           <array>
-            <string>LICENSES/LICENSE.txt</string>
-            <string>include/*.h</string>
+            <string>LICENSES/nanosvg.txt</string>
+            <string>include/nanosvg/*.h</string>
           </array>
           <key>name</key>
           <string>common</string>

@@ -30,7 +30,7 @@ set +x
 set -x
 
 mkdir -p "$STAGING_DIR"/LICENSES
-cp "$SRC_DIR"/LICENSE.txt "$STAGING_DIR"/LICENSES
+cp "$SRC_DIR"/LICENSE.txt "$STAGING_DIR"/LICENSES/nanosvg.txt
 
-mkdir -p "$STAGING_DIR"/include
-cp "$SRC_DIR"/src/*.h "$STAGING_DIR"/include
+mkdir -p "$STAGING_DIR"/include/nanosvg
+cp "$SRC_DIR"/src/*.h "$STAGING_DIR"/include/nanosvg
